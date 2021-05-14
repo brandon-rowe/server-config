@@ -3,5 +3,22 @@ echo "#######################################################################"
 echo "Hello 007"
 echo "Q is Configuring Nginx for You"
 echo "#######################################################################"
+echo -n "Enter your URL (ex. 'your_url.com' no 'https://') \"url\" "
+read user_url
+echo "The value of \"url\" is now $user_url."
 echo "Make www root folder for server"
 mkdir ~/../srv/www/
+mkdir ~/../srv/www/$user_url
+cp index.html ~/../srv/www/$user_url
+#touch ~/../srv/www/$user_url/index.html #(User Configures HTML)
+mv your_url.com $user_url
+cp $user_url ~/../etc/nginx/sites-available/$user_url
+sudo chown -R $USER:$USER ~/../srv/www/$user_url
+sudo chmod -R 755 ~/../srv/www
+sudo ln -s ~/../etc/nginx/sites-available/$user_url ~/../etc/nginx/sites-enabled/
+nginx -t
+echo "Make sure Nginx Test is passed and start server"
+
+
+
+
