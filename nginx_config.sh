@@ -11,8 +11,8 @@ mkdir ~/../srv/www/
 mkdir ~/../srv/www/$user_url
 cp index.html ~/../srv/www/$user_url
 #touch ~/../srv/www/$user_url/index.html #(User Configures HTML)
-mv your_url.com $user_url
-cp $user_url ~/../etc/nginx/sites-available/$user_url
+mv my_domain.com $user_url
+cp $user_url ~/../etc/nginx/sites-available/
 sudo chown -R $USER:$USER ~/../srv/www/$user_url
 sudo chmod -R 755 ~/../srv/www
 sudo ln -s ~/../etc/nginx/sites-available/$user_url ~/../etc/nginx/sites-enabled/
