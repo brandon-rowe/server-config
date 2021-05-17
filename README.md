@@ -7,19 +7,14 @@ by [brandon-rowe](https://github.com/brandon-rowe)
 
 ### Step 1
 
-Check "Learning Materials" below under "Digitalocean and Nginx"
+* Check "Learning Materials" below under "Digitalocean and Nginx"
+* Follow the link and guide to setup your test Digitalocean server droplet.
+* For testing, select the cheapest option, password, IPv6 and create.
+* Under Resources Tab, Locate the Droplet Name under Droplets.
+* Look for the three dots next to the droplet name and IP address.
+* Click on the three dots and select "Access Console"
 
-Follow the link and guide to setup your test Digitalocean server droplet.
-
-For testing, select the cheapest option, password, IPv6 and create.
-
-Under Resources Tab, Locate the Droplet Name under Droplets.
-
-Look for the three dots next to the droplet name and IP address.
-
-Click on the three dots and select "Access Console"
-
-You are now in the server terminal.
+####You are now in the server terminal.
 
 Login
 
