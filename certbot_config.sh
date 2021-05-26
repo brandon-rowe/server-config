@@ -1,7 +1,7 @@
 #!/bin/bash
-echo "Have you installed certbot already? (Y)es or (N)o"
-read answer
-if [ "$answer" -eq "Y" ]    
+echo 
+read -p 'Have you installed certbot already? (Y)es or (N)o' answer
+if [ $answer=='Y' ]    
 then 
     sudo certbot --nginx
 else
