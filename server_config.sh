@@ -16,7 +16,7 @@ echo "UFW HTTP Allowed #####################################################"
 sudo ufw allow  'Nginx HTTPS'
 echo "UFW HTTPS Allowed #####################################################"
 sudo ufw allow  'Nginx FULL'
-echo "UFW Nginx Full Allowed #####################################################"
+echo "UFW Nginx Full Allowed ################################################"
 sudo ufw allow 'OpenSSH'
 echo "UFW OpenSSH Allowed ##################################################"
 sudo systemctl status nginx
