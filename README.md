@@ -22,7 +22,7 @@ Note: Back-end installs node version 12 that can be easily updated.
 * Look for the three dots next to the droplet name and IP address.
 * Click on the three dots and select "Access Console"
 
-####You are now in the server terminal.
+#### You are now in the server terminal.
 
 Login
 
@@ -41,7 +41,7 @@ sudo apt-get install git
 #### Download Repository, Change Directory to Repository
 ```bash
 git clone https://github.com/brandon-rowe/server-config
-cd server-config
+cd server-config/student
 ```
 
 ## Step 4
